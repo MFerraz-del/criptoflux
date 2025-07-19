@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CriptoFlux - Painel</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="videofundo.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo em HTML5.
+  </video>
+
+  <header class="top-bar">
+    <h1>CRIPTOFLUX</h1>
+    <input type="text" id="busca" placeholder=" Buscar moeda..." />
+  </header>
+
+  <main class="grid" id="lista-criptos">
+    <!-- Cards de criptos (mockados) -->
+  </main>
+
+  <aside class="painel-detalhes" id="painelDetalhes">
+    <button id="fecharPainel">✖</button>
+    <div id="detalhesConteudo">
+      <!-- Conteúdo inserido via JS -->
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
